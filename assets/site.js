@@ -72,7 +72,7 @@
       +seniorBadge
       +'<button class="fav'+on+'" data-fav="'+d.name+'" aria-label="Save '+d.name+'"><svg class="i"><use href="#i-heart"/></svg></button></div>'
       +'<div class="tx"><h3>'+d.name+'</h3><div class="meta">'+meta+'</div><p>'+d.blurb+'</p>'
-      +'<a class="cta" href="#">Meet '+d.name+' <svg class="i"><use href="#i-arrow"/></svg></a></div></article>';
+      +'<a class="meet" href="#">Meet '+d.name+' <svg class="i"><use href="#i-arrow"/></svg></a></div></article>';
   }
 
   // Featured dogs on home

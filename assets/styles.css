@@ -42,6 +42,9 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.92);bac
 .brand .mark .i{width:26px;height:26px;stroke-width:1.6}
 .brand .bn{font-family:"Fraunces",serif;font-weight:700;font-size:18px;color:var(--green);line-height:1;letter-spacing:-.3px}
 .brand .bn small{display:block;font-family:"Inter";font-weight:600;font-size:9.5px;letter-spacing:1.6px;color:var(--muted);text-transform:uppercase;margin-top:3px}
+.brand .logo-img{height:48px;width:auto;display:block}
+footer .brand .logo-img{height:44px}
+@media(max-width:640px){.brand .logo-img{height:40px}}
 nav.links{display:flex;gap:22px;align-items:center;margin-left:auto}
 nav.links a{font-weight:600;font-size:14.5px;color:var(--ink);white-space:nowrap;transition:.15s color}
 nav.links a:hover,nav.links a.active{color:var(--green-2)}
@@ -103,9 +106,10 @@ section{padding:88px 0}
 .dog .meta{color:var(--muted);font-size:13.5px;margin:4px 0 10px;display:flex;flex-wrap:wrap;gap:6px}
 .dog .meta span{background:var(--cream);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
 .dog p{color:var(--muted);font-size:14px;flex:1}
-.dog .cta{margin-top:14px;font-weight:700;color:var(--coral);font-size:14px;display:inline-flex;align-items:center;gap:7px}
-.dog .cta .i{width:16px;height:16px;transition:.2s transform}
-.dog:hover .cta .i{transform:translateX(4px)}
+.dog .meet{margin-top:14px;font-weight:800;color:var(--green-2);font-size:14px;display:inline-flex;align-items:center;gap:7px;letter-spacing:.2px}
+.dog .meet:hover{color:var(--coral)}
+.dog .meet .i{width:16px;height:16px;transition:.2s transform}
+.dog:hover .meet .i{transform:translateX(4px)}
 
 /* FILTER BAR */
 .filters{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow);margin-bottom:14px;position:sticky;top:76px;z-index:20}
