@@ -42,9 +42,10 @@ header.nav{position:sticky;top:0;z-index:60;background:rgba(255,255,255,.92);bac
 .brand .mark .i{width:26px;height:26px;stroke-width:1.6}
 .brand .bn{font-family:"Fraunces",serif;font-weight:700;font-size:18px;color:var(--green);line-height:1;letter-spacing:-.3px}
 .brand .bn small{display:block;font-family:"Inter";font-weight:600;font-size:9.5px;letter-spacing:1.6px;color:var(--muted);text-transform:uppercase;margin-top:3px}
-.brand .logo-img{height:48px;width:auto;display:block}
-footer .brand .logo-img{height:44px}
-@media(max-width:640px){.brand .logo-img{height:40px}}
+.brand .logo-img{height:58px;width:auto;display:block}
+.nav .wrap{padding:8px 24px}
+footer .brand .logo-img{height:52px}
+@media(max-width:640px){.brand .logo-img{height:46px}}
 nav.links{display:flex;gap:22px;align-items:center;margin-left:auto}
 nav.links a{font-weight:600;font-size:14.5px;color:var(--ink);white-space:nowrap;transition:.15s color}
 nav.links a:hover,nav.links a.active{color:var(--green-2)}
